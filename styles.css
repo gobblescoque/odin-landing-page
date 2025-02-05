@@ -7,6 +7,9 @@ body {
     justify-content: stretch;
 }
 
+.header, .body-1 {
+    padding: 0px 450px;
+}
 
 .header {
     display: flex;
@@ -16,9 +19,26 @@ body {
     color: white;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header li{
+    list-style-type: none;
+    padding: 0px 16px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
 .header-links {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .main {
@@ -29,14 +49,25 @@ body {
 }
 
 .body-1{
+    /* padding: 0px 300px; */
+    padding-top: 96px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
 }
+
+.par-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .text-left {
+    width: 400px;
+    padding: 16px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -45,10 +76,21 @@ body {
 }
 
 .button {
+    margin: 16px 0px;
     padding: 5px 15px;
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
+}
+
+.image-right{
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .body-2 {
