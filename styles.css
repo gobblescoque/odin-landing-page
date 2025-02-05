@@ -7,17 +7,13 @@ body {
     justify-content: stretch;
 }
 
-/* .header, .body-1 {
-    padding: 0px 450px;
-} */
-
 .header {
-    /* padding: 0px 192px; */
     align-items: center;
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0px 148px
 }
 
 .logo {
